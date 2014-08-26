@@ -1,0 +1,23 @@
+[
+  {
+    "title": "AngularJS — Superheroic JavaScript MVW Framework",
+    "url": "https://angularjs.org/",
+    "tags": [
+      "official"
+    ]
+  },
+  {
+    "title": "toddmotto/angularjs-styleguide",
+    "url": "https://github.com/toddmotto/angularjs-styleguide",
+    "tags": [
+      "github", "styleguide"
+    ]
+  },
+  {
+    "title": "Ultimate guide to learning AngularJS in one day",
+    "url": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/",
+    "tags": [
+      "tutorial"
+    ]
+  }
+]
