@@ -3,12 +3,65 @@
 @import 'partials/loading';
 @import 'partials/ng-animate';
 
-body {
+body	{
 	background-color: #fff;
 	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
 }
 
-input {
+input	{
 	box-sizing: border-box;
 	width: 100%;
+}
+
+ul, ol	{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.clearfix	{
+	&:before,
+	&:after	{
+		content: "";
+		display: table;
+	}
+	&:after	{
+		clear: both;
+	}
+}
+
+
+.main-item-list	{
+	padding: 0 10px;
+	> li	{
+		padding: 0 0 10px 0;
+		&:hover	{
+		}
+		> a	{
+			display: block;
+			padding: 0 0 6px 0;
+			text-decoration: none;
+		}
+	}
+}
+
+.main-item-tag-list	{
+	@extend .clearfix;
+	> li	{
+		float: left;
+		margin-right: 10px;
+		> a	{
+			box-sizing: border-box;
+			display: block;
+			padding: 4px;
+			background-color: #f36c7c;
+			color: #fff;
+			text-decoration: none;
+			&:hover	{
+			}
+		}
+	}
 }
