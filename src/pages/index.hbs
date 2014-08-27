@@ -1,20 +1,9 @@
 ---
 title: my angular bookmarks
+style: ['main.css']
 script: ['app.js']
 ---
 <div ng-app="bookmarkApp">
-	<div ng-controller="BookmarkCtrl">
-		<input type="text" ng-model="search" placeholder="search.." />
-		<p><% bookmarkCount %> bookmarks</p>
-		<ul>
-			<li ng-repeat="bookmark in bookmarks | filter:search">
-				<a href="<% bookmark.url %>"><% bookmark.title %></a>
-				<ul>
-					<li ng-repeat="tag in bookmark.tags">
-						<a href="#"><% tag %></a>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
+	<div loading></div>
+	<div ng-view></div>
 </div>

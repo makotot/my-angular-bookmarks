@@ -2,11 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		{{#style}}
+		<link rel="stylesheet" href="./css/{{.}}">
+		{{/style}}
 		<title>{{title}}</title>
 	</head>
 	<body>
 		{{>body}}
 		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		{{#script}}
 		<script src="./js/{{.}}"></script>
 		{{/script}}

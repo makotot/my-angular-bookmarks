@@ -1,0 +1,14 @@
+<div ng-controller="BookmarkCtrl">
+	<input type="text" ng-model="search" placeholder="search.." />
+	<p><span><% result.length %></span> bookmarks</p>
+	<ul>
+		<li ng-repeat="bookmark in result = (bookmarks | filter:search)">
+			<a href="<% bookmark.url %>"><% bookmark.title %></a>
+			<ul>
+				<li ng-repeat="tag in bookmark.tags">
+					<a href="#"><% tag %></a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>

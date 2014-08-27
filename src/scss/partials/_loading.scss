@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+.loading	{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	-webkit-animation: rotation .5s infinite linear;
+	border-left: 2px solid #333;
+	border-right: 2px solid #333;
+	border-top: 2px solid #888;
+	border-bottom: 2px solid #333;
+	border-radius: 100%;
+}
+
+@-webkit-keyframes rotation {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(359deg);}
+}

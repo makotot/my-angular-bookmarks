@@ -50,6 +50,15 @@ module.exports = function (grunt) {
             cwd: '<%= path.src %>/pages/',
             src: '*.hbs',
             dest: '<%= path.dev %>'
+          },
+          {
+            options: {
+              layout: 'views/default.hbs'
+            },
+            expand: true,
+            cwd: '<%= path.src %>/views/',
+            src: '*.hbs',
+            dest: '<%= path.dev %>/views'
           }
         ]
       },
@@ -67,6 +76,19 @@ module.exports = function (grunt) {
         ]
       }
     },
+    sass: {
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss/',
+            src: '*.scss',
+            dest: '<%= path.dev %>/css/',
+            ext: '.css'
+          }
+        ]
+      }
+    },
     watch: {
       options: {
         livereload: true
@@ -74,6 +96,13 @@ module.exports = function (grunt) {
       html: {
         files: ['src/**/*.hbs'],
         tasks: ['assemble'],
+        options: {
+          spawn: false
+        }
+      },
+      css: {
+        files: ['src/scss/**/*.scss'],
+        tasks: ['sass:dev'],
         options: {
           spawn: false
         }
@@ -104,5 +133,5 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', ['clean', 'assemble']);
-  grunt.registerTask('serve', ['clean', 'assemble:dev', 'copy:dev', 'connect', 'watch']);
+  grunt.registerTask('serve', ['clean', 'assemble:dev', 'sass:dev', 'copy:dev', 'connect', 'watch']);
 };

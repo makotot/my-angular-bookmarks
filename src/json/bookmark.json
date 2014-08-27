@@ -19,5 +19,19 @@
     "tags": [
       "tutorial"
     ]
+  },
+  {
+    "title": "Animating AngularJS Apps: ngView ♥ Scotch",
+    "url": "http://scotch.io/tutorials/javascript/animating-angularjs-apps-ngview",
+    "tags": [
+      "ng-view", "routing", "animation"
+    ]
+  },
+  {
+    "title": "MandarinDrummond.com",
+    "url": "http://mandarindrummond.com/articles/angular-global-loading-indicator/index.html",
+    "tags": [
+      "$httpProvider", "loading"
+    ]
   }
 ]
