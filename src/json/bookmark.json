@@ -47,5 +47,12 @@
     "tags": [
       "github"
     ]
+  },
+  {
+    "title": "Popular Modules - AngularJS Modules, Plugins and Directives",
+    "url": "http://ngmodules.org/",
+    "tags": [
+      "module", "plugin", "directive"
+    ]
   }
 ]
