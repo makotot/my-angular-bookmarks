@@ -1,0 +1,19 @@
+{
+  "name": "my-angular-bookmarks",
+  "version": "0.0.0",
+  "homepage": "https://github.com/makotot/my-angular-bookmarks",
+  "authors": [
+    "makotot <makoto.ttn@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "~3.0.1"
+  }
+}

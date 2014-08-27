@@ -31,6 +31,12 @@ module.exports = function (grunt) {
             src: ['<%= path.src %>/js/*.js'],
             dest: '<%= path.dev %>/js',
             flatten: true
+          },
+          {
+            expand: true,
+            src: ['./bower_components/normalize-css/normalize.css'],
+            dest: '<%= path.dev %>/css/lib',
+            flatten: true
           }
         ]
       }
