@@ -1,4 +1,4 @@
-var bookmarkApp = angular.module('bookmarkApp', ['ngRoute']);
+var bookmarkApp = angular.module('bookmarkApp', ['ngRoute', 'ngAnimate']);
 
 // handlebars template tag used with Assemble uses {{}} that does not provide method changing template tags.
 bookmarkApp.config(function ($interpolateProvider) {

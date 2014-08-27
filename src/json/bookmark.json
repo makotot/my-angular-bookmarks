@@ -33,5 +33,12 @@
     "tags": [
       "$httpProvider", "loading"
     ]
+  },
+  {
+    "title": "AngularJSでちゃちゃっとアニメーションを試す - AngularJS Ninja",
+    "url": "http://angularjsninja.com/blog/2013/12/08/angularjs-nganimate/",
+    "tags": [
+      "animation"
+    ]
   }
 ]
