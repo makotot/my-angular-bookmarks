@@ -18,6 +18,7 @@ branches:
 
 before_script:
   - npm install -g grunt-cli
+  - gem install sass
 
 script:
   - grunt build
