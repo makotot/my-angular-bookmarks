@@ -1,0 +1,26 @@
+env:
+  global:
+    - GH_REPO="makotot/my-angular-bookmarks"
+    - GIT_COMMITTER_NAME=makotot
+    - GIT_COMMITTER_EMAIL=makoto.ttn@gmail.com
+    - GIT_AUTHOR_NAME=makotot
+    - GIT_AUTHOR_EMAIL=makoto.ttn@gmail.com
+    - secure: XeSuSbJPLwFfcZmiol/sy5taafcti31SfZXt0WB6qgC4yZ8Rtc3id1FRxp1tx5yXT+7yI8S1+0xOFdcLmapp/MYqIhgKvkxwvdzzr5lDpsaBPJhTWsYyfZBBEQDeA/4yKxcYyuQCSGecLToYMj/rEzyVMUpr2QdDPpbCSUJPrtk=
+
+language: node_js
+
+node_js:
+  - "0.10"
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g grunt-cli
+
+script:
+  - grunt build
+
+after_success:
+  - ./deploy.sh
