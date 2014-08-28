@@ -30,6 +30,9 @@ bookmarkApp.config(function ($routeProvider) {
     .when('/', {
       templateUrl: 'views/bookmarks.html',
       controller: 'bookmarkController'
+    })
+    .otherwise({
+      redirectTo: '/'
     });
 });
 

@@ -24,7 +24,7 @@
     "title": "Animating AngularJS Apps: ngView ♥ Scotch",
     "url": "http://scotch.io/tutorials/javascript/animating-angularjs-apps-ngview",
     "tags": [
-      "ng-view", "routing", "animation"
+      "ngView", "routing", "animation"
     ]
   },
   {
@@ -53,6 +53,13 @@
     "url": "http://ngmodules.org/",
     "tags": [
       "module", "plugin", "directive"
+    ]
+  },
+  {
+    "title": "AngularJS Routes",
+    "url": "http://tutorials.jenkov.com/angularjs/routes.html",
+    "tags": [
+      "routing", "ngView"
     ]
   }
 ]
