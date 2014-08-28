@@ -3,7 +3,7 @@
 		<input type="text" ng-model="search" placeholder="search.." class="main-search-field" role="search" />
 	</div>
 	<div class="main-content">
-		<p><span><% result.length %></span> bookmark<span ng-show="result.length > 2">s</span></p>
+		<p class="main-item-count"><span><% result.length %></span> bookmark<span ng-show="result.length > 2">s</span></p>
 		<ul class="main-item-list">
 			<li ng-repeat="bookmark in result = (bookmarks | filter:search)">
 				<a href="<% bookmark.url %>">

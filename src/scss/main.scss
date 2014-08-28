@@ -11,6 +11,10 @@ body	{
 	line-height: 14px;
 }
 
+p	{
+	margin: 0;
+}
+
 input	{
 	box-sizing: border-box;
 	-webkit-appearance: none;
@@ -36,7 +40,7 @@ ul, ol	{
 
 
 .main-search	{
-	padding: 10px;
+	padding: 10px 10px 0 10px;
 }
 .main-search-field	{
 	width: 100%;
@@ -49,11 +53,14 @@ ul, ol	{
 }
 
 .main-content	{
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
+}
+.main-item-count	{
 }
 .main-item-list	{
+	padding: 10px 0 0 0;
 	> li	{
-		border-bottom: 1px solid #ccc;
+		border-top: 1px solid #ccc;
 		&:hover	{
 		}
 		> a	{
@@ -64,6 +71,9 @@ ul, ol	{
 			&:hover	{
 			}
 		}
+	}
+	> li:last-child	{
+		border-bottom: 1px solid #ccc;
 	}
 }
 .main-item-title	{
