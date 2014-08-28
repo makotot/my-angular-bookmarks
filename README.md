@@ -1,0 +1,1 @@
+[![Build Status](http://img.shields.io/travis/makotot/my-angular-bookmarks/master.svg?style=flat)](https://travis-ci.org/makotot/my-angular-bookmarks) [![DevDependencies](http://img.shields.io/david/dev/makotot/my-angular-bookmarks.svg?style=flat)](https://github.com/makotot/my-angular-bookmarks)
