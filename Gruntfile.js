@@ -39,6 +39,28 @@ module.exports = function (grunt) {
             flatten: true
           }
         ]
+      },
+      build: {
+        files: [
+          {
+            expand: true,
+            src: ['<%= path.src %>/json/*.json'],
+            dest: '<%= path.dest %>/json',
+            flatten: true
+          },
+          {
+            expand: true,
+            src: ['<%= path.src %>/js/*.js'],
+            dest: '<%= path.dest %>/js',
+            flatten: true
+          },
+          {
+            expand: true,
+            src: ['./bower_components/normalize-css/normalize.css'],
+            dest: '<%= path.dest %>/css/lib',
+            flatten: true
+          }
+        ]
       }
     },
     assemble: {
@@ -78,6 +100,15 @@ module.exports = function (grunt) {
             cwd: '<%= path.src %>/pages/',
             src: '*.hbs',
             dest: '<%= path.dest %>'
+          },
+          {
+            options: {
+              layout: 'views/default.hbs'
+            },
+            expand: true,
+            cwd: '<%= path.src %>/views/',
+            src: '*.hbs',
+            dest: '<%= path.dest %>/views'
           }
         ]
       }
@@ -90,6 +121,17 @@ module.exports = function (grunt) {
             cwd: '<%= path.src %>/scss/',
             src: '*.scss',
             dest: '<%= path.dev %>/css/',
+            ext: '.css'
+          }
+        ]
+      },
+      build: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= path.src %>/scss/',
+            src: '*.scss',
+            dest: '<%= path.dest %>/css/',
             ext: '.css'
           }
         ]
@@ -138,6 +180,7 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['clean', 'assemble']);
+  grunt.registerTask('default', ['clean']);
   grunt.registerTask('serve', ['clean', 'assemble:dev', 'sass:dev', 'copy:dev', 'connect', 'watch']);
+  grunt.registerTask('build', ['clean', 'assemble:build', 'sass:build', 'copy:build']);
 };
