@@ -61,5 +61,12 @@
     "tags": [
       "routing", "ngView"
     ]
+  },
+  {
+    "title": "How To Use ngShow and ngHide ♥ Scotch",
+    "url": "http://scotch.io/tutorials/javascript/how-to-use-ngshow-and-nghide",
+    "tags": [
+      "ngHide", "ngShow"
+    ]
   }
 ]
