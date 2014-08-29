@@ -68,5 +68,12 @@
     "tags": [
       "ngHide", "ngShow"
     ]
+  },
+  {
+    "title": "A Practical Guide to AngularJS Directives - SitePoint",
+    "url": "http://www.sitepoint.com/practical-guide-angularjs-directives/",
+    "tags": [
+      "directive"
+    ]
   }
 ]
