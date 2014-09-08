@@ -96,5 +96,12 @@
     "tags": [
       "directive", "tutorial"
     ]
+  },
+  {
+    "title": "olov/ng-annotate",
+    "url": "https://github.com/olov/ng-annotate",
+    "tags": [
+      "ng-annotate"
+    ]
   }
 ]
