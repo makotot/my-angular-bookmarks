@@ -103,5 +103,12 @@
     "tags": [
       "ng-annotate"
     ]
+  },
+  {
+    "title": "angularjs - why ng-bind is better than {{}} in angular? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16125872/why-ng-bind-is-better-than-in-angular",
+    "tags": [
+      "ng-bind"
+    ]
   }
 ]
