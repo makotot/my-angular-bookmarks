@@ -110,5 +110,12 @@
     "tags": [
       "ng-bind"
     ]
+  },
+  {
+    "title": "AngularJS and scope.$apply — Jim Hoskins",
+    "url": "http://jimhoskins.com/2012/12/17/angularjs-and-apply.html",
+    "tags": [
+      "$apply"
+    ]
   }
 ]
