@@ -117,5 +117,12 @@
     "tags": [
       "$apply"
     ]
+  },
+  {
+    "title": "Creating a Slide Show Plugin With AngularJS - SitePoint",
+    "url": "http://www.sitepoint.com/creating-slide-show-plugin-angularjs/",
+    "tags": [
+      "tutorial", "directive"
+    ]
   }
 ]
