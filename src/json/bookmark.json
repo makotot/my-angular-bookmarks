@@ -124,5 +124,12 @@
     "tags": [
       "tutorial", "directive"
     ]
+  },
+  {
+    "title": "My online Notebook: Moving AJAX calls to a custom service in Angular JS",
+    "url": "http://sravi-kiran.blogspot.jp/2013/03/MovingAjaxCallsToACustomServiceInAngularJS.html",
+    "tags": [
+      "$http", "factory"
+    ]
   }
 ]
