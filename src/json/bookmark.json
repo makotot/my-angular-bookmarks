@@ -131,5 +131,12 @@
     "tags": [
       "$http", "factory"
     ]
+  },
+  {
+    "title": "Interceptors in AngularJS and Useful Examples - Web Development is Easy!",
+    "url": "http://www.webdeveasy.com/interceptors-in-angularjs-and-useful-examples/",
+    "tags": [
+      "interceptors"
+    ]
   }
 ]
