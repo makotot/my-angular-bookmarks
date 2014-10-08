@@ -1,0 +1,108 @@
+.loading {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: rotation .5s infinite linear;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #333;
+  border-radius: 100%; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+.ng-enter,
+.ng-leave,
+.ng-move {
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear; }
+
+.ng-enter {
+  opacity: 0; }
+
+.ng-enter.ng-enter-active {
+  opacity: 1; }
+
+.ng-leave {
+  opacity: 1; }
+
+.ng-leave.ng-leave-active {
+  opacity: 0; }
+
+.ng-move {
+  opacity: .5; }
+
+.ng-move.ng-move-active {
+  opacity: 1; }
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 14px; }
+
+p {
+  margin: 0; }
+
+input {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  outline: 0; }
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+
+.clearfix:before, .main-item-tag-list:before, .clearfix:after, .main-item-tag-list:after {
+  content: "";
+  display: table; }
+.clearfix:after, .main-item-tag-list:after {
+  clear: both; }
+
+.main-search {
+  padding: 10px 10px 0 10px; }
+
+.main-search-field {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ededed; }
+  .main-search-field:focus {
+    border: 1px solid #ccc; }
+
+.main-content {
+  padding: 20px 10px 10px 10px; }
+
+.main-item-list {
+  padding: 10px 0 0 0; }
+  .main-item-list > li {
+    border-top: 1px solid #ccc; }
+    .main-item-list > li > a {
+      display: block;
+      padding: 8px 0 16px 0;
+      color: #333;
+      text-decoration: none; }
+  .main-item-list > li:last-child {
+    border-bottom: 1px solid #ccc; }
+
+.main-item-title {
+  display: block;
+  padding-bottom: 8px; }
+
+.main-item-tag-list > li {
+  float: left;
+  margin-right: 10px; }
+  .main-item-tag-list > li > span {
+    box-sizing: border-box;
+    display: block;
+    padding: 4px;
+    background-color: #666;
+    color: #fff;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/lib/normalize.css">
+		
+		<title></title>
+	</head>
+	<body>
+		<div ng-controller="BookmarkCtrl">
+	<div class="main-search">
+		<input type="text" ng-model="search" placeholder="search.." class="main-search-field" role="search" />
+	</div>
+	<div class="main-content">
+		<p class="main-item-count"><span><% result.length %></span> bookmark<span ng-show="result.length > 2">s</span></p>
+		<ul class="main-item-list">
+			<li ng-repeat="bookmark in result = (bookmarks | filter:search)">
+				<a href="<% bookmark.url %>">
+					<span class="main-item-title"><% bookmark.title %></span>
+					<ul class="main-item-tag-list">
+						<li ng-repeat="tag in bookmark.tags">
+							<span><% tag %></span>
+						</li>
+					</ul>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-animate.min.js"></script>
+		
+	</body>
+</html>

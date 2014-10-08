@@ -1,0 +1,149 @@
+[
+  {
+    "title": "AngularJS — Superheroic JavaScript MVW Framework",
+    "url": "https://angularjs.org/",
+    "tags": [
+      "official"
+    ]
+  },
+  {
+    "title": "toddmotto/angularjs-styleguide",
+    "url": "https://github.com/toddmotto/angularjs-styleguide",
+    "tags": [
+      "github", "styleguide"
+    ]
+  },
+  {
+    "title": "Ultimate guide to learning AngularJS in one day",
+    "url": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "title": "Animating AngularJS Apps: ngView ♥ Scotch",
+    "url": "http://scotch.io/tutorials/javascript/animating-angularjs-apps-ngview",
+    "tags": [
+      "ngView", "routing", "animation"
+    ]
+  },
+  {
+    "title": "MandarinDrummond.com",
+    "url": "http://mandarindrummond.com/articles/angular-global-loading-indicator/index.html",
+    "tags": [
+      "$httpProvider", "loading"
+    ]
+  },
+  {
+    "title": "AngularJSでちゃちゃっとアニメーションを試す - AngularJS Ninja",
+    "url": "http://angularjsninja.com/blog/2013/12/08/angularjs-nganimate/",
+    "tags": [
+      "animation"
+    ]
+  },
+  {
+    "title": "angular/angular.js",
+    "url": "https://github.com/angular/angular.js",
+    "tags": [
+      "github"
+    ]
+  },
+  {
+    "title": "Popular Modules - AngularJS Modules, Plugins and Directives",
+    "url": "http://ngmodules.org/",
+    "tags": [
+      "module", "plugin", "directive"
+    ]
+  },
+  {
+    "title": "AngularJS Routes",
+    "url": "http://tutorials.jenkov.com/angularjs/routes.html",
+    "tags": [
+      "routing", "ngView"
+    ]
+  },
+  {
+    "title": "How To Use ngShow and ngHide ♥ Scotch",
+    "url": "http://scotch.io/tutorials/javascript/how-to-use-ngshow-and-nghide",
+    "tags": [
+      "ngHide", "ngShow"
+    ]
+  },
+  {
+    "title": "A Practical Guide to AngularJS Directives - SitePoint",
+    "url": "http://www.sitepoint.com/practical-guide-angularjs-directives/",
+    "tags": [
+      "directive"
+    ]
+  },
+  {
+    "title": "AngularJS Tutorial – Learn AngularJS in 30 minutes | RevillWeb",
+    "url": "http://www.revillweb.com/tutorials/angularjs-in-30-minutes-angularjs-tutorial/",
+    "tags": [
+      "tutorial"
+    ]
+  },
+  {
+    "title": "AngularJS Directives Tutorial - Fundoo Solutions",
+    "url": "http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/",
+    "tags": [
+      "tutorial", "directive"
+    ]
+  },
+  {
+    "title": "AngularJS Directive チュートリアル STEP1〜STEP5 - A Memorandum",
+    "url": "http://etc9.hatenablog.com/entry/2014/05/26/012249",
+    "tags": [
+      "directive", "tutorial"
+    ]
+  },
+  {
+    "title": "olov/ng-annotate",
+    "url": "https://github.com/olov/ng-annotate",
+    "tags": [
+      "ng-annotate"
+    ]
+  },
+  {
+    "title": "angularjs - why ng-bind is better than {{}} in angular? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16125872/why-ng-bind-is-better-than-in-angular",
+    "tags": [
+      "ng-bind"
+    ]
+  },
+  {
+    "title": "AngularJS and scope.$apply — Jim Hoskins",
+    "url": "http://jimhoskins.com/2012/12/17/angularjs-and-apply.html",
+    "tags": [
+      "$apply"
+    ]
+  },
+  {
+    "title": "Creating a Slide Show Plugin With AngularJS - SitePoint",
+    "url": "http://www.sitepoint.com/creating-slide-show-plugin-angularjs/",
+    "tags": [
+      "tutorial", "directive"
+    ]
+  },
+  {
+    "title": "My online Notebook: Moving AJAX calls to a custom service in Angular JS",
+    "url": "http://sravi-kiran.blogspot.jp/2013/03/MovingAjaxCallsToACustomServiceInAngularJS.html",
+    "tags": [
+      "$http", "factory"
+    ]
+  },
+  {
+    "title": "Interceptors in AngularJS and Useful Examples - Web Development is Easy!",
+    "url": "http://www.webdeveasy.com/interceptors-in-angularjs-and-useful-examples/",
+    "tags": [
+      "interceptors"
+    ]
+  },
+  {
+    "title": "【eLV勉強会】AngularJSでのモバイルフロントエンド開発",
+    "url": "http://www.slideshare.net/hiroyukikusu/elvangularjs",
+    "tags": [
+      "slide"
+    ]
+  }
+]
